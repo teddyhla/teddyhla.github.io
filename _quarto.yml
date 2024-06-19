@@ -3,11 +3,12 @@ project:
   output-dir: docs
 
 website:
-  title: "teddyhla.github.io"
+  title: "Teddy T W HLA"
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - presentations.qmd
       - about.qmd
 
 format:
@@ -15,6 +16,7 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    page-layout: full
 
 
 

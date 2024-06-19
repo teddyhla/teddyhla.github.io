@@ -1,7 +1,23 @@
 ---
-title: "teddyhla.github.io"
+title: "Teddy Tun Win HLA"
+image: media/selfie2.jpg
+toc: true
+about: 
+  template: trestles
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/teddy-hla-73202b47/
+    - text: GitHub
+      href: https://github.com/teddyhla
+    - text: UCL HAL
+      href: https://uclhal.org/people.html
+    - text: Email
+      href: mailto:tunwin.hla@nhs.net
 ---
 
-This is a Quarto website.
+# Hi :) 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I am Teddy. I am an intensive care medicine specialist registrar in London. 
+I have a special interest in data science, machine learning and using data driven approaches to draw insights on patient's physiology and clinical outcomes.
+
+# Education

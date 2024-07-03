@@ -17,7 +17,14 @@ about:
 
 # Hi :) 
 
-I am Teddy. I am an intensive care medicine specialist registrar in London. 
-I have a special interest in data science, machine learning and using data driven approaches to draw insights on patient's physiology and clinical outcomes.
+I am Teddy. 
+
+- I am an intensive care medicine specialist registrar in London. 
+
+- I have a special interest in data science, machine learning and using data driven approaches to draw insights on patient's physiology and clinical outcomes.
+
+- Clinically, I am interested in the use of extra-corporeal membrane oxygenation therapy (ECMO) in various critical illness settings.
+
+- Get in touch!
 
 # Education

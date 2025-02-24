@@ -4,7 +4,7 @@
     "href": "presentations.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMy First Blog Post\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\nThis is my first blog post with Quarto\n\n\n\n\n\nFeb 20, 2025\n\n\nTeddy HLA\n\n\n\n\n\n\n\n\n\n\n\n\nMy second Blog Post\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\nThis is my first blog post with Quarto\n\n\n\n\n\nFeb 20, 2025\n\n\nTeddy HLA\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMy Presentation\n\n\n\n\n\n\npresentation\n\n\nslides\n\n\n\nA reveal.js presentation in my blog\n\n\n\n\n\nFeb 24, 2025\n\n\nTeddy Tun Win HLA\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Blog Post\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\nThis is my first blog post with Quarto\n\n\n\n\n\nFeb 20, 2025\n\n\nTeddy HLA\n\n\n\n\n\n\n\n\n\n\n\n\nMy second Blog Post\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\nThis is my second blog post with Quarto\n\n\n\n\n\nFeb 20, 2025\n\n\nTeddy HLA\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -12,6 +12,27 @@
     "title": "Teddy Tun Win HLA",
     "section": "",
     "text": "Hi :)\nI am Teddy.\n\nI am an intensive care medicine specialist registrar in London.\nI also work as a senior clinial data scientist at London AI centre\nI have a special interest in data science, machine learning and using data driven approaches to draw insights on patient’s physiology and clinical outcomes.\nClinically, I am interested in the use of extra-corporeal membrane oxygenation therapy (ECMO) in various critical illness settings.\nGet in touch!"
+  },
+  {
+    "objectID": "posts/presentation1/presentation1.html#first-slide",
+    "href": "posts/presentation1/presentation1.html#first-slide",
+    "title": "My Presentation",
+    "section": "First Slide",
+    "text": "First Slide\n\nBullet point 1\nBullet point 2\nBullet point 3"
+  },
+  {
+    "objectID": "posts/presentation1/presentation1.html#second-slide",
+    "href": "posts/presentation1/presentation1.html#second-slide",
+    "title": "My Presentation",
+    "section": "Second Slide",
+    "text": "Second Slide\nSome content for the second slide\n\ncnnption"
+  },
+  {
+    "objectID": "posts/presentation1/presentation1.html#code-example",
+    "href": "posts/presentation1/presentation1.html#code-example",
+    "title": "My Presentation",
+    "section": "Code Example",
+    "text": "Code Example\n```python def hello_world(): print(“Hello, world!”)"
   },
   {
     "objectID": "posts/post1/test.html",

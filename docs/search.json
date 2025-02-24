@@ -2,9 +2,9 @@
   {
     "objectID": "presentations.html",
     "href": "presentations.html",
-    "title": "My presentations",
+    "title": "Blog",
     "section": "",
-    "text": "#test"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMy First Blog Post\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\nThis is my first blog post with Quarto\n\n\n\n\n\nFeb 20, 2025\n\n\nTeddy HLA\n\n\n\n\n\n\n\n\n\n\n\n\nMy second Blog Post\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\nThis is my first blog post with Quarto\n\n\n\n\n\nFeb 20, 2025\n\n\nTeddy HLA\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -12,6 +12,20 @@
     "title": "Teddy Tun Win HLA",
     "section": "",
     "text": "Hi :)\nI am Teddy.\n\nI am an intensive care medicine specialist registrar in London.\nI also work as a senior clinial data scientist at London AI centre\nI have a special interest in data science, machine learning and using data driven approaches to draw insights on patient’s physiology and clinical outcomes.\nClinically, I am interested in the use of extra-corporeal membrane oxygenation therapy (ECMO) in various critical illness settings.\nGet in touch!"
+  },
+  {
+    "objectID": "posts/post1/test.html",
+    "href": "posts/post1/test.html",
+    "title": "My First Blog Post",
+    "section": "",
+    "text": "blah blah blah"
+  },
+  {
+    "objectID": "posts/post2/post2.html",
+    "href": "posts/post2/post2.html",
+    "title": "My second Blog Post",
+    "section": "",
+    "text": "blah blah blah2"
   },
   {
     "objectID": "about.html",

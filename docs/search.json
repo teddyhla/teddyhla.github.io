@@ -4,7 +4,7 @@
     "href": "presentations.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMy Presentation\n\n\n\n\n\n\npresentation\n\n\nslides\n\n\n\nA reveal.js presentation in my blog\n\n\n\n\n\nFeb 24, 2025\n\n\nTeddy Tun Win HLA\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Blog Post\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\nThis is my first blog post with Quarto\n\n\n\n\n\nFeb 20, 2025\n\n\nTeddy HLA\n\n\n\n\n\n\n\n\n\n\n\n\nMy second Blog Post\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\nThis is my second blog post with Quarto\n\n\n\n\n\nFeb 20, 2025\n\n\nTeddy HLA\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nguideline-version3-finalcomments49corrected.docx.lol\n\n\n\n\n\n\nintensive care medicine\n\n\nversion control\n\n\nreproducibility\n\n\nproductivity\n\n\ncollaboration\n\n\n\nTalk for the LIIT Conference\n\n\n\n\n\nMar 7, 2025\n\n\nTeddy Tun Win HLA, Ed Palmer\n\n\n\n\n\n\n\n\n\n\n\n\nMy Presentation\n\n\n\n\n\n\npresentation\n\n\nslides\n\n\n\nA reveal.js presentation in my blog\n\n\n\n\n\nFeb 24, 2025\n\n\nTeddy Tun Win HLA\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Blog Post\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\nThis is my first blog post with Quarto\n\n\n\n\n\nFeb 20, 2025\n\n\nTeddy HLA\n\n\n\n\n\n\n\n\n\n\n\n\nMy second Blog Post\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\nThis is my second blog post with Quarto\n\n\n\n\n\nFeb 20, 2025\n\n\nTeddy HLA\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -32,7 +32,7 @@
     "href": "posts/presentation1/presentation1.html#code-example",
     "title": "My Presentation",
     "section": "Code Example",
-    "text": "Code Example\n```python def hello_world(): print(“Hello, world!”)"
+    "text": "Code Example\ndef hello_world():\n    print(\"Hello, world!\")"
   },
   {
     "objectID": "posts/post1/test.html",
@@ -40,6 +40,76 @@
     "title": "My First Blog Post",
     "section": "",
     "text": "blah blah blah"
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#section",
+    "href": "posts/version_control/presentation.html#section",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "",
+    "text": "Build some familiar examples of why these are problematic\n\nThe simple burden of collaborative writing by email\nTrack changes doesn’t work if you are tracking a different document.\nSomeone tracks changes on a document 3 versions behind. Need to manually integrate.\nThere are solutions: trust could invest in expensive software\nTied into a monopoly (microsoft)\nAlternatives? Google? Do we think the NHS would be comfortable with this?"
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#section-1",
+    "href": "posts/version_control/presentation.html#section-1",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "",
+    "text": "How do others solve this issue? Often in much harder circumstances? Game development: dozen or hundreds of developers often writing in different countries"
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#assassins-creed",
+    "href": "posts/version_control/presentation.html#assassins-creed",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "Assassin’s Creed",
+    "text": "Assassin’s Creed\n\n34 million players by October 2023\nUbisoft game studio\n2000 developers\n\n\nUbisoft has 2000 developers"
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#section-2",
+    "href": "posts/version_control/presentation.html#section-2",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "",
+    "text": "How do others solve this issue? Often in much harder circumstances? Major international research collaborations: CERN: Thousands of authors from multiple continents."
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#a-somewhat-meta-example",
+    "href": "posts/version_control/presentation.html#a-somewhat-meta-example",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "A (somewhat meta) Example",
+    "text": "A (somewhat meta) Example\n\nTeddy and I are writing this presentation\nWe don’t use powerpoint"
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#benefits",
+    "href": "posts/version_control/presentation.html#benefits",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "Benefits",
+    "text": "Benefits\n\nPractical: time saved, better collaboration, transparency"
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#challenges",
+    "href": "posts/version_control/presentation.html#challenges",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "Challenges",
+    "text": "Challenges\n\nSome limited technical knowhow necessary\nBuy in: change in the way we work\nComfort level putting work into public domain for those to find"
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#practicalities",
+    "href": "posts/version_control/presentation.html#practicalities",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "Practicalities",
+    "text": "Practicalities"
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#next-steps",
+    "href": "posts/version_control/presentation.html#next-steps",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "Next Steps",
+    "text": "Next Steps\n\nNetwork\nHave a look at the Turing Way"
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#credits",
+    "href": "posts/version_control/presentation.html#credits",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "Credits",
+    "text": "Credits\n\nReference the Turing Way\nReference Art Work"
   },
   {
     "objectID": "posts/post2/post2.html",

@@ -4,7 +4,7 @@
     "href": "presentations.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nguideline-version3-finalcomments49corrected.docx.lol\n\n\n\n\n\n\nintensive care medicine\n\n\nversion control\n\n\nreproducibility\n\n\nproductivity\n\n\ncollaboration\n\n\n\nTalk for the LIIT Conference\n\n\n\n\n\nMar 7, 2025\n\n\nTeddy Tun Win HLA, Ed Palmer\n\n\n\n\n\n\n\n\n\n\n\n\nMy Presentation\n\n\n\n\n\n\npresentation\n\n\nslides\n\n\n\nA reveal.js presentation in my blog\n\n\n\n\n\nFeb 24, 2025\n\n\nTeddy Tun Win HLA\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Blog Post\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\nThis is my first blog post with Quarto\n\n\n\n\n\nFeb 20, 2025\n\n\nTeddy HLA\n\n\n\n\n\n\n\n\n\n\n\n\nMy second Blog Post\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\nThis is my second blog post with Quarto\n\n\n\n\n\nFeb 20, 2025\n\n\nTeddy HLA\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nguideline-version3-finalcomments49corrected.docx.lol\n\n\nModern collaboration with version control\n\n\n\nintensive care medicine\n\n\nversion control\n\n\nreproducibility\n\n\nproductivity\n\n\ncollaboration\n\n\n\nTalk for the LIIT Conference\n\n\n\n\n\nMar 7, 2025\n\n\nTeddy Tun Win HLA, Ed Palmer\n\n\n\n\n\n\n\n\n\n\n\n\nMy Presentation\n\n\n\n\n\n\npresentation\n\n\nslides\n\n\n\nA reveal.js presentation in my blog\n\n\n\n\n\nFeb 24, 2025\n\n\nTeddy Tun Win HLA\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Blog Post\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\nThis is my first blog post with Quarto\n\n\n\n\n\nFeb 20, 2025\n\n\nTeddy HLA\n\n\n\n\n\n\n\n\n\n\n\n\nMy second Blog Post\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\nThis is my second blog post with Quarto\n\n\n\n\n\nFeb 20, 2025\n\n\nTeddy HLA\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -42,74 +42,137 @@
     "text": "blah blah blah"
   },
   {
+    "objectID": "posts/version_control/presentation.html#this-is-a-talk-about-version-control",
+    "href": "posts/version_control/presentation.html#this-is-a-talk-about-version-control",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "This is a talk about version control",
+    "text": "This is a talk about version control\n\nGeneral outline: 1. Introduce the problem. Make it familiar and relatable. - Documentation focused collaboration in the NHS is fragmented and broken 2. Demonstrate a solution by using: Plain text (Markdown), git and github. 3. Tackle obvious criticisms: - We already have version control/track changes in word. Yes, but you haven’t solved the emailing files issue - So use google docs. This isn’t a realistic solution and many trusts will not accept working closely with google as a company. 4. Show the benefits beyond simple “track changes”. - Multi-institute collaborations - Enhanced productivity - Re-visiting old branches/toughts - Total audit trail of peer review 5. Practical steps (How to get started? Where to go?) - Learn the tools: Markdown (already know some of this from whatsapp etc.), Git (this is a little code orientated, but there is software to help), Github. - Read the Turing Way - Speak to your IT department. Run a pilot 6. Contribute back - If you get this working write a chapter for healthcare collaboration in the turing way."
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#this-is-a-talk-about-version-control-collaboration",
+    "href": "posts/version_control/presentation.html#this-is-a-talk-about-version-control-collaboration",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "This is a talk about version control collaboration",
+    "text": "This is a talk about version control collaboration"
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#the-problem",
+    "href": "posts/version_control/presentation.html#the-problem",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "The Problem",
+    "text": "The Problem\n\n\nDocument collaboration in the NHS is broken.\nLowest common demonimator; MS Word and email.\nguideline-version3-finalcomments49corrected.docx.lol is a symptom."
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#frustrating-examples",
+    "href": "posts/version_control/presentation.html#frustrating-examples",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "Frustrating Examples",
+    "text": "Frustrating Examples\n\n\nColleague returns tracked changes on version 3. We’re now on version 5.\nTrust only pays for word licences on certain PCs.\nCollaborator changes all the formatting and resized the figures.\n\n\n\n\nSolutions: cloud (MS word 💰 / google 😈).\nNeither scales well.\nThere are industries that have solved scalable document collaboration."
+  },
+  {
     "objectID": "posts/version_control/presentation.html#section",
     "href": "posts/version_control/presentation.html#section",
     "title": "guideline-version3-finalcomments49corrected.docx.lol",
     "section": "",
-    "text": "Build some familiar examples of why these are problematic\n\nThe simple burden of collaborative writing by email\nTrack changes doesn’t work if you are tracking a different document.\nSomeone tracks changes on a document 3 versions behind. Need to manually integrate.\nThere are solutions: trust could invest in expensive software\nTied into a monopoly (microsoft)\nAlternatives? Google? Do we think the NHS would be comfortable with this?"
-  },
-  {
-    "objectID": "posts/version_control/presentation.html#section-1",
-    "href": "posts/version_control/presentation.html#section-1",
-    "title": "guideline-version3-finalcomments49corrected.docx.lol",
-    "section": "",
-    "text": "How do others solve this issue? Often in much harder circumstances? Game development: dozen or hundreds of developers often writing in different countries"
+    "text": "Game development: dozen or hundreds of developers often writing in different countries Ultimately these are just plane text files"
   },
   {
     "objectID": "posts/version_control/presentation.html#assassins-creed",
     "href": "posts/version_control/presentation.html#assassins-creed",
     "title": "guideline-version3-finalcomments49corrected.docx.lol",
     "section": "Assassin’s Creed",
-    "text": "Assassin’s Creed\n\n34 million players by October 2023\nUbisoft game studio\n2000 developers\n\n\nUbisoft has 2000 developers"
+    "text": "Assassin’s Creed\n\n34 million players by October 2023\nUbisoft game studio\n2000 developers"
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#section-1",
+    "href": "posts/version_control/presentation.html#section-1",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "",
+    "text": "Major international research collaborations: CERN: Thousands of authors from multiple continents."
   },
   {
     "objectID": "posts/version_control/presentation.html#section-2",
     "href": "posts/version_control/presentation.html#section-2",
     "title": "guideline-version3-finalcomments49corrected.docx.lol",
     "section": "",
-    "text": "How do others solve this issue? Often in much harder circumstances? Major international research collaborations: CERN: Thousands of authors from multiple continents."
+    "text": "Linux: Powers the internet and the vast majority of the phones in this room Created the very tools we will discuss today to solve this issue"
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#section-3",
+    "href": "posts/version_control/presentation.html#section-3",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "",
+    "text": "Introduce the turing way. A decentralised group to bring these methods and technologies into the hands of scientists.\n\n\n2"
   },
   {
     "objectID": "posts/version_control/presentation.html#a-somewhat-meta-example",
     "href": "posts/version_control/presentation.html#a-somewhat-meta-example",
     "title": "guideline-version3-finalcomments49corrected.docx.lol",
     "section": "A (somewhat meta) Example",
-    "text": "A (somewhat meta) Example\n\nTeddy and I are writing this presentation\nWe don’t use powerpoint"
+    "text": "A (somewhat meta) Example\n\nTeddy and I are writing this presentation\nWe don’t use powerpoint; plain text!"
   },
   {
-    "objectID": "posts/version_control/presentation.html#benefits",
-    "href": "posts/version_control/presentation.html#benefits",
+    "objectID": "posts/version_control/presentation.html#the-power-of-plain-text",
+    "href": "posts/version_control/presentation.html#the-power-of-plain-text",
     "title": "guideline-version3-finalcomments49corrected.docx.lol",
-    "section": "Benefits",
-    "text": "Benefits\n\nPractical: time saved, better collaboration, transparency"
+    "section": "The Power of Plain Text",
+    "text": "The Power of Plain Text\n\n\nWriting text without any formatting = efficiency."
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#collaboration",
+    "href": "posts/version_control/presentation.html#collaboration",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "Collaboration",
+    "text": "Collaboration\n\nEach collaborator / idea lives in seperate branches.\nMerged when ready.\nVersion controlled: implicit to the method of collaboration."
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#untapped-potential",
+    "href": "posts/version_control/presentation.html#untapped-potential",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "Untapped Potential",
+    "text": "Untapped Potential\n\nImagine every NHS trust uses this approach\nwe need a new hyponatraemia guidelines\nSt. Elshwere; global reputation\nFind their guidelines on github: Fork\n\n\n\nWe do this already informally"
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#untapped-potential-1",
+    "href": "posts/version_control/presentation.html#untapped-potential-1",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "Untapped Potential",
+    "text": "Untapped Potential\n\nMajor new RCT changes practice.\nSt. Elsewhere updates their guidelines.\nWe are notified.\nThe change is ratified and instantly disseminated."
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#advantagesbenefits",
+    "href": "posts/version_control/presentation.html#advantagesbenefits",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "Advantages/Benefits",
+    "text": "Advantages/Benefits\n\nPractical: time saved, better collaboration, transparanecy\nFuture proof\nScalable"
   },
   {
     "objectID": "posts/version_control/presentation.html#challenges",
     "href": "posts/version_control/presentation.html#challenges",
     "title": "guideline-version3-finalcomments49corrected.docx.lol",
     "section": "Challenges",
-    "text": "Challenges\n\nSome limited technical knowhow necessary\nBuy in: change in the way we work\nComfort level putting work into public domain for those to find"
+    "text": "Challenges\n\nSome technical knowhow necessary.\nBuy in: change in the way we work.\nSome friction now, for a massive payoff later. Start early (?undergrad ?A levels)\nNetwork effects are multiplicative.\nLevel of trust comfort: documents in public domain."
   },
   {
-    "objectID": "posts/version_control/presentation.html#practicalities",
-    "href": "posts/version_control/presentation.html#practicalities",
+    "objectID": "posts/version_control/presentation.html#questions",
+    "href": "posts/version_control/presentation.html#questions",
     "title": "guideline-version3-finalcomments49corrected.docx.lol",
-    "section": "Practicalities",
-    "text": "Practicalities"
-  },
-  {
-    "objectID": "posts/version_control/presentation.html#next-steps",
-    "href": "posts/version_control/presentation.html#next-steps",
-    "title": "guideline-version3-finalcomments49corrected.docx.lol",
-    "section": "Next Steps",
-    "text": "Next Steps\n\nNetwork\nHave a look at the Turing Way"
+    "section": "Questions",
+    "text": "Questions\n\nWhy would we want to have guidelines in plain text?\nFormatting/branding? Develop trust templates.\nWebpage as output: high fidelity medium, video, audio, reactive."
   },
   {
     "objectID": "posts/version_control/presentation.html#credits",
     "href": "posts/version_control/presentation.html#credits",
     "title": "guideline-version3-finalcomments49corrected.docx.lol",
     "section": "Credits",
-    "text": "Credits\n\nReference the Turing Way\nReference Art Work"
+    "text": "Credits\n\n\n\n\nCommunity, The Turing Way. 2021. “The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research.” Zenodo. https://doi.org/10.5281/ZENODO.5671094.\n\n\nCommunity, The Turing Way, and Scriberia. 2024. “Illustrations from The Turing Way: Shared Under CC-BY 4.0 for Reuse.” Zenodo. https://doi.org/10.5281/ZENODO.3332807.\n\n\nTris. n.d. “Noboilerplate.org.”"
+  },
+  {
+    "objectID": "posts/version_control/presentation.html#footnotes",
+    "href": "posts/version_control/presentation.html#footnotes",
+    "title": "guideline-version3-finalcomments49corrected.docx.lol",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n (n.d.)\nCommunity (2021), Community and Scriberia (2024)"
   },
   {
     "objectID": "posts/post2/post2.html",

@@ -30,7 +30,27 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-83e162e692cc062530416ceef7114882.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -130,6 +150,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">guideline-version3-finalcomments49corrected.docx.lol</h1>
+  <p class="subtitle">Modern collaboration with version control</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -140,7 +161,7 @@ Teddy Tun Win HLA <a href="https://orcid.org/0000-0001-9769-1618" class="quarto-
 <a href="mailto:tunwin.hla@nhs.net">tunwin.hla@nhs.net</a>
 </div>
         <p class="quarto-title-affiliation">
-            GSTT
+            GSTT Hospital
           </p>
     </div>
 <div class="quarto-title-author">
@@ -151,18 +172,17 @@ Ed Palmer <a href="https://orcid.org/0000-0002-8024-4616" class="quarto-title-au
 <a href="mailto:edward.palmer@nhs.net">edward.palmer@nhs.net</a>
 </div>
         <p class="quarto-title-affiliation">
-            Whittington
+            Whittington Hospital
           </p>
     </div>
 </div>
 
   <p class="date">2025-03-07</p>
 </section>
-<section>
-<section id="the-problem" class="title-slide slide level1 center">
-<h1>The Problem</h1>
+<section id="this-is-a-talk-about-version-control" class="slide level2">
+<h2>This is a talk about version control</h2>
 <aside class="notes">
-<p>General outline: 1. Introduce the problem. Make it familiar and relatable. 2. Demonstrate a solution by using: Markdown, git and github (or similar) 3. Tackle obvious criticisms: - We already have version control/track changes in word. Yes, but you haven’t solved the emailing files issue - So use google docs. This isn’t a realistic solution and many trusts will not accept working closely with google as a company. 4. Show the benefits beyond simple “track changes”. - Multi-institute collaborations - Enhanced productivity - Re-visiting old branches/toughts - Total audit trail of peer review 5. Practical steps (How to get started? Where to go?) - Learn the tools: Markdown (already know some of this from whatsapp etc.), Git (this is a little code orientated, but there is software to help), Github. - Read the Turing Way - Speak to your IT department. Run a pilot 6. Contribute back - If you get this working write a chapter for healthcare collaboration in the turing way.</p>
+<p>General outline: 1. Introduce the problem. Make it familiar and relatable. - Documentation focused collaboration in the NHS is fragmented and broken 2. Demonstrate a solution by using: Plain text (Markdown), git and github. 3. Tackle obvious criticisms: - We already have version control/track changes in word. Yes, but you haven’t solved the emailing files issue - So use google docs. This isn’t a realistic solution and many trusts will not accept working closely with google as a company. 4. Show the benefits beyond simple “track changes”. - Multi-institute collaborations - Enhanced productivity - Re-visiting old branches/toughts - Total audit trail of peer review 5. Practical steps (How to get started? Where to go?) - Learn the tools: Markdown (already know some of this from whatsapp etc.), Git (this is a little code orientated, but there is software to help), Github. - Read the Turing Way - Speak to your IT department. Run a pilot 6. Contribute back - If you get this working write a chapter for healthcare collaboration in the turing way.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -175,55 +195,45 @@ Ed Palmer <a href="https://orcid.org/0000-0002-8024-4616" class="quarto-title-au
           display:block!important;
       }</style></aside>
 </section>
+<section id="this-is-a-talk-about-version-control-collaboration" class="slide level2">
+<h2>This is a talk about <del>version control</del> collaboration</h2>
+</section>
+<section id="the-problem" class="slide level2">
+<h2>The Problem</h2>
+<div class="column" style="width:60%;">
+<ul>
+<li>Document collaboration in the NHS is broken.</li>
+<li>Lowest common demonimator; MS Word and email.</li>
+<li>guideline-version3-finalcomments49corrected.docx.lol is a symptom.</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="./src/clippy.png"></p>
+</div></section>
 <section class="slide level2">
 
-<ul>
-<li>Guidelines, policies etc. typically word documents (proprietary) emailed around.</li>
-<li>Any collaborative research!</li>
-</ul>
-<aside class="notes">
-<p>Introduce the idea of working in silos and the difficulties of collaboration. Obvious examples: Aim to do as much of this as possible with visual slides only. I.e. keep text to a minimum. Just speak to interesting visuals.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 
 <img data-src="./src/open-multiple-word.png" class="r-stretch"></section>
-<section id="section" class="slide level2" data-background-image="./src/silos.jpg">
-<h2></h2>
-<aside class="notes">
-<p>Build some familiar examples of why these are problematic</p>
+<section id="frustrating-examples" class="slide level2">
+<h2>Frustrating Examples</h2>
+<div class="fragment">
 <ul>
-<li>The simple burden of collaborative writing by email</li>
-<li>Track changes doesn’t work if you are tracking a different document.</li>
-<li>Someone tracks changes on a document 3 versions behind. Need to manually integrate.</li>
-<li>There are solutions: trust could invest in expensive software</li>
-<li>Tied into a monopoly (microsoft)</li>
-<li>Alternatives? Google? Do we think the NHS would be comfortable with this?</li>
+<li>Colleague returns tracked changes on version 3. We’re now on version 5.</li>
+<li>Trust only pays for word licences on certain PCs.</li>
+<li>Collaborator changes all the formatting and resized the figures.</li>
 </ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+</div>
+<div class="fragment">
+<ul>
+<li>Solutions: cloud (MS word 💰 / google 😈).</li>
+<li>Neither scales well.</li>
+<li>There are industries that have solved scalable document collaboration.</li>
+</ul>
+</div>
 </section>
-<section id="section-1" class="slide level2" data-background-image="./src/video-games.jpg">
+<section id="section" class="slide level2" data-background-image="./src/video-games.jpg">
 <h2></h2>
 <aside class="notes">
-<p>How do others solve this issue? Often in much harder circumstances? Game development: dozen or hundreds of developers often writing in different countries</p>
+<p>Game development: dozen or hundreds of developers often writing in different countries Ultimately these are just plane text files</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -244,11 +254,27 @@ Ed Palmer <a href="https://orcid.org/0000-0002-8024-4616" class="quarto-title-au
 <li>2000 developers</li>
 </ul>
 
-<img data-src="./src/ubisoft.png" class="r-stretch quarto-figure-center"><p class="caption">Ubisoft has 2000 developers</p></section>
-<section id="section-2" class="slide level2" data-background-image="./src/cern.jpeg">
+<img data-src="./src/ubisoft.png" class="r-stretch"></section>
+<section id="section-1" class="slide level2" data-background-image="./src/cern.jpeg">
 <h2></h2>
 <aside class="notes">
-<p>How do others solve this issue? Often in much harder circumstances? Major international research collaborations: CERN: Thousands of authors from multiple continents.</p>
+<p>Major international research collaborations: CERN: Thousands of authors from multiple continents.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-2" class="slide level2" data-background-image="./src/linux.jpg">
+<h2></h2>
+<aside class="notes">
+<p>Linux: Powers the internet and the vast majority of the phones in this room Created the very tools we will discuss today to solve this issue</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -263,42 +289,70 @@ Ed Palmer <a href="https://orcid.org/0000-0002-8024-4616" class="quarto-title-au
 </section>
 <section class="slide level2">
 
-</section></section>
-<section>
-<section id="the-unreasonable-effectivenes-of-plain-text-and-version-control" class="title-slide slide level1 center">
-<h1>The Unreasonable Effectivenes of Plain Text and Version Control</h1>
+<p><img data-src="./src/demo-code.png"></p>
+<aside class="notes">
+<p>They can do this because they use plain text<a href="#/footnotes" class="footnote-ref" id="fnref1" role="doc-noteref" data-footnote-href="#/fn1" onclick=""><sup>1</sup></a> Plain text can be read by any computer, running any software Plain text will continue to work while we have computers No tie into a single company. No monopolies.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside></aside></section>
+<section id="section-3" class="slide level2" data-background-image="./src/theturingway.svg">
+<h2></h2>
 
-</section>
+<aside class="notes">
+<p>Introduce the turing way. A decentralised group to bring these methods and technologies into the hands of scientists.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><a href="#/footnotes" class="footnote-ref" id="fnref2" role="doc-noteref" data-footnote-href="#/fn2" onclick=""><sup>2</sup></a></p>
+</div></aside></section>
 <section id="a-somewhat-meta-example" class="slide level2">
 <h2>A (somewhat meta) Example</h2>
 <ul>
 <li>Teddy and I are writing this presentation</li>
-<li>We don’t use powerpoint</li>
+<li>We don’t use powerpoint; plain text!</li>
 </ul>
+</section>
+<section id="the-power-of-plain-text" class="slide level2">
+<h2>The Power of Plain Text</h2>
 
-<img data-src="./src/main-branch.png" class="r-stretch"></section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="the-power-of-plain-text" class="title-slide slide level1 center">
-<h1>The Power of Plain Text</h1>
+<img data-src="./src/markdown.png" class="r-stretch"><aside class="notes">
+<p>Writing text without any formatting = efficiency.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="collaboration" class="slide level2">
+<h2>Collaboration</h2>
 <ul>
-<li>writing text without any formatting = efficiency.</li>
-<li>An example</li>
-</ul>
-
-<img data-src="./src/markdown.png" class="r-stretch"></section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="how-collaboration-looks" class="title-slide slide level1 center">
-<h1>How collaboration looks</h1>
-<ul>
-<li>each collaborator / each idea lives in seperate unique <em>branches</em></li>
-<li>before they are <em>merged</em></li>
-<li>version controlled mean it is traceable and logged</li>
+<li>Each collaborator / idea lives in seperate <strong>branches</strong>.</li>
+<li><strong>Merged</strong> when ready.</li>
+<li>Version controlled: implicit to the method of collaboration.</li>
 </ul>
 
 <img data-src="./src/one-branch.png" class="r-stretch"></section>
@@ -309,10 +363,6 @@ Ed Palmer <a href="https://orcid.org/0000-0002-8024-4616" class="quarto-title-au
 <section class="slide level2">
 
 
-<img data-src="./src/git.png" class="r-stretch"></section>
-<section class="slide level2">
-
-
 <img data-src="./src/tracked-change.png" class="r-stretch"></section>
 <section class="slide level2">
 
@@ -320,38 +370,19 @@ Ed Palmer <a href="https://orcid.org/0000-0002-8024-4616" class="quarto-title-au
 <img data-src="./src/pull-request.png" class="r-stretch"></section>
 <section class="slide level2">
 
-<aside class="notes">
-<p>I’m tempted to avoid any special words like “pull request”. Rather jsut say “they make a request that our changes are incorporated”. I agree here.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
 
-<p>Now imagine that every NHS organisation does the same I now need to write a guideline of hyponatraemia I know that St.&nbsp;Elshwere has a very well established endocrine department We can find their guidelines on their github account. Because its under version control, it contains a full tree of every edit made by every professor.</p>
+<img data-src="./src/track-project-2.png" class="r-stretch"></section>
+<section id="untapped-potential" class="slide level2">
+<h2>Untapped Potential</h2>
 <ul>
-<li>Attempt at trusts. e.g., NHS Fife.</li>
+<li>Imagine every NHS trust uses this approach</li>
+<li>we need a new hyponatraemia guidelines</li>
+<li>St.&nbsp;Elshwere; global reputation</li>
+<li>Find their guidelines on github: <strong>Fork</strong></li>
 </ul>
 
-<img data-src="./src/fife.png" class="r-stretch"></section>
-<section class="slide level2">
-
-
-<img data-src="./src/project-history.svg" class="r-stretch"></section>
-<section class="slide level2">
-
-<p>Now we “fork” and adapt to our local needs These guidelines were quite ward level heavy, and so we’ve adapted them</p>
-
 <img data-src="src/sub-branch.png" class="r-stretch"><aside class="notes">
-<p>We actually already do this, but informally by stealing from other trusts. This formalises and maintains the connection</p>
+<p>We do this already informally</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -364,65 +395,85 @@ Ed Palmer <a href="https://orcid.org/0000-0002-8024-4616" class="quarto-title-au
           display:block!important;
       }</style></aside>
 </section>
-<section class="slide level2">
-
-<p>Now some bleeding edge research causes St.&nbsp;Elshwere to update their guidelines We can see that we are now behind on their tree We can decide if we want to incorporate the new changes ourselves or not</p>
-</section>
-<section id="benefits" class="slide level2">
-<h2>Benefits</h2>
+<section id="untapped-potential-1" class="slide level2">
+<h2>Untapped Potential</h2>
 <ul>
-<li>Practical: time saved, better collaboration, transparency</li>
+<li>Major new RCT changes practice.</li>
+<li>St.&nbsp;Elsewhere updates their guidelines.</li>
+<li><strong>We are notified</strong>.</li>
+<li>The change is ratified and instantly disseminated.</li>
+</ul>
+</section>
+<section id="advantagesbenefits" class="slide level2">
+<h2>Advantages/Benefits</h2>
+<ul>
+<li>Practical: time saved, better collaboration, transparanecy</li>
+<li>Future proof</li>
+<li>Scalable</li>
 </ul>
 </section>
 <section id="challenges" class="slide level2">
 <h2>Challenges</h2>
 <ul>
-<li>Some limited technical knowhow necessary</li>
-<li>Buy in: change in the way we work</li>
-<li>Comfort level putting work into public domain for those to find</li>
+<li><strong>Some</strong> technical knowhow necessary.</li>
+<li>Buy in: change in the way we work.</li>
+<li>Some friction now, for a massive payoff later. <strong>Start early</strong> (?undergrad ?A levels)</li>
+<li>Network effects are multiplicative.</li>
+<li>Level of trust comfort: documents in public domain.</li>
 </ul>
 </section>
-<section class="slide level2">
-
+<section id="questions" class="slide level2">
+<h2>Questions</h2>
 <ul>
-<li>Why would we want to have guidelines in plane text?</li>
-<li>What about formatting?</li>
-<li>Why don’t you want to target a webpage?</li>
-<li>If you have to, develop template that convert into your trust formats</li>
+<li>Why would we want to have guidelines in plain text?</li>
+<li>Formatting/branding? Develop trust templates.</li>
+<li>Webpage as output: high fidelity medium, video, audio, reactive.</li>
 </ul>
-</section>
-<section id="practicalities" class="slide level2">
-<h2>Practicalities</h2>
 </section>
 <section class="slide level2">
 
 
-<img data-src="./src/community.svg" class="r-stretch"></section>
-<section class="slide level2">
-
-
-<img data-src="./src/theturingway-chapter.png" class="r-stretch"></section>
-<section id="next-steps" class="slide level2">
-<h2>Next Steps</h2>
-<ul>
-<li>Network</li>
-<li>Have a look at the Turing Way</li>
-</ul>
-
-<img data-src="./src/turing-way.png" class="r-stretch"></section>
-<section id="credits" class="slide level2">
+<img data-src="./src/community.png" class="r-stretch"><aside class="notes">
+<p>join our community</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="credits" class="slide level2 smaller scrollable">
 <h2>Credits</h2>
-<ul>
-<li>Reference the Turing Way</li>
-<li>Reference Art Work</li>
-</ul>
 
 
-</section></section>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-community2021" class="csl-entry" role="listitem">
+Community, The Turing Way. 2021. <span>“The <span>Turing Way</span>: <span>A</span> Handbook for Reproducible, Ethical and Collaborative Research.”</span> Zenodo. <a href="https://doi.org/10.5281/ZENODO.5671094">https://doi.org/10.5281/ZENODO.5671094</a>.
+</div>
+<div id="ref-theturing2024" class="csl-entry" role="listitem">
+Community, The Turing Way, and Scriberia. 2024. <span>“Illustrations from <span>The Turing Way</span>: <span>Shared</span> Under <span>CC-BY</span> 4.0 for Reuse.”</span> Zenodo. <a href="https://doi.org/10.5281/ZENODO.3332807">https://doi.org/10.5281/ZENODO.3332807</a>.
+</div>
+<div id="ref-zotero-10683" class="csl-entry" role="listitem">
+Tris. n.d. <span>“Noboilerplate.org.”</span>
+</div>
+</div>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document smaller scrollable" role="doc-endnotes"><h2>Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><span class="citation" data-cites="zotero-10683"> (<a href="#/credits" role="doc-biblioref" onclick="">n.d.</a>)</span></p></li>
+<li id="fn2"><p><span class="citation" data-cites="community2021">Community (<a href="#/credits" role="doc-biblioref" onclick="">2021</a>)</span>, <span class="citation" data-cites="theturing2024">Community and Scriberia (<a href="#/credits" role="doc-biblioref" onclick="">2024</a>)</span></p></li>
+</ol>
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
-<p>doced.bsky.social &amp; teddyhla.bsky.social</p>
+<p>doced.bsky.social | teddyhla.bsky.social</p>
 </div>
 </div></div>
 
@@ -475,7 +526,7 @@ Ed Palmer <a href="https://orcid.org/0000-0002-8024-4616" class="quarto-title-au
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
